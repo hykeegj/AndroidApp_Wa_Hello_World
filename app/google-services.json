@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "799431035276",
+    "firebase_url": "https://wa-hello-world.firebaseio.com",
+    "project_id": "wa-hello-world",
+    "storage_bucket": "wa-hello-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799431035276:android:bcddd7b592f72bf4db2ea9",
+        "android_client_info": {
+          "package_name": "com.hykeegj.wa_hello_world"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799431035276-qnbtn2ccltsue2r361qbgb0bne828jdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPS5wiyKoqd25I3YS6xUh-4It08lOSU0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799431035276-qnbtn2ccltsue2r361qbgb0bne828jdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
