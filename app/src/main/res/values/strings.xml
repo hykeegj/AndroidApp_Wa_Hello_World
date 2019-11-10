@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Wa_Hello_World</string>
+    <string name="cTitle"><![CDATA[[C]]]></string>
+    <string name="cppTitle"><![CDATA[[C++]]]></string>
+    <string name="javaTitle"><![CDATA[[Java]]]></string>
+    <string name="pythonTitle"><![CDATA[[Python]]]></string>
+    <string name="cCode"><![CDATA[\n#include <stdio.h>\n\nint main(void)\n{\n\t\t\t\tprintf(\"Hello World!\\n\");\n\n\t\t\t\treturn 0;\n}]]></string>
+    <string name="cppCode"><![CDATA[\n#include <iostream>\n\nint main()\n{\n\t\t\t\tstd::cout << \"Hello World!\\n\";\n}]]></string>
+    <string name="javaCode"><![CDATA[\npackage hello;\n\npublic class HelloWorld {\n\t\t\t\tpublic static void main(String[] args) {\n\t\t\t\t\t\t\t\tSystem.out.println(\"Hello World!\");\n\t\t\t\t}\n}]]></string>
+    <string name="pythonCode"><![CDATA[\nprint(\"Hello World\")]]></string>
 </resources>
