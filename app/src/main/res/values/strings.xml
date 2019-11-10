@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Wa_Hello_World</string>
-    <string name="cTitle"><![CDATA[[C]]]></string>
-    <string name="cppTitle"><![CDATA[[C++]]]></string>
-    <string name="javaTitle"><![CDATA[[Java]]]></string>
-    <string name="pythonTitle"><![CDATA[[Python]]]></string>
-    <string name="cCode"><![CDATA[\n#include <stdio.h>\n\nint main(void)\n{\n\t\t\t\tprintf(\"Hello World!\\n\");\n\n\t\t\t\treturn 0;\n}]]></string>
-    <string name="cppCode"><![CDATA[\n#include <iostream>\n\nint main()\n{\n\t\t\t\tstd::cout << \"Hello World!\\n\";\n}]]></string>
-    <string name="javaCode"><![CDATA[\npackage hello;\n\npublic class HelloWorld {\n\t\t\t\tpublic static void main(String[] args) {\n\t\t\t\t\t\t\t\tSystem.out.println(\"Hello World!\");\n\t\t\t\t}\n}]]></string>
-    <string name="pythonCode"><![CDATA[\nprint(\"Hello World\")]]></string>
+    <string name="cTitle"><![CDATA[C]]></string>
+    <string name="cppTitle"><![CDATA[C++]]></string>
+    <string name="javaTitle"><![CDATA[Java]]></string>
+    <string name="pythonTitle"><![CDATA[Python]]></string>
+    <string name="cCode"><![CDATA[\n\n\t1\t\t#include <stdio.h>\n\t2\n\t3\t\tint main(void)\n\t4\t\t{\n\t5\t\t\t\tprintf(\"Hello World!\\n\");\n\t6\n\t7\t\t\t\treturn 0;\n\t8\t\t}]]></string>
+    <string name="cppCode"><![CDATA[\n\n\t1\t\t#include <iostream>\n\t2\n\t3\t\tint main()\n\t4\t\t{\n\t5\t\t\t\tstd::cout << \"Hello World!\\n\";\n\t6\t\t}]]></string>
+    <string name="javaCode"><![CDATA[\n\n\t1\t\tpackage hello;\n\t2\n\t3\t\tpublic class HelloWorld {\n\t4\t\t\t\tpublic static void main(String[] args) {\n\t5\t\t\t\t\t\tSystem.out.println(\"Hello World!\");\n\t6\t\t\t\t}\n\t7\t\t}]]></string>
+    <string name="pythonCode"><![CDATA[\n\n\t1\t\tprint(\"Hello World\")]]></string>
 </resources>

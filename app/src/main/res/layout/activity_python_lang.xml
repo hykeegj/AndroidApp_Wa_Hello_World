@@ -15,14 +15,16 @@
             android:id="@+id/pythonTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="40dp"
+            android:textAlignment="center"
             android:text="@string/pythonTitle" />
 
         <TextView
             android:id="@+id/pythonCode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:text="@string/pythonCode" />
+            android:textSize="16dp"
+            android:fontFamily="@font/d2coding_bold"
+    android:text="@string/pythonCode" />
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
