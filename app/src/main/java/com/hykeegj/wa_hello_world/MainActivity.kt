@@ -46,5 +46,15 @@ class MainActivity : AppCompatActivity() {
             val python_intent = Intent(this, PythonLang::class.java)
             startActivity(python_intent)
         }
+
+        csButton.setOnClickListener {
+            val cs_intent = Intent(this, CsLang::class.java)
+            startActivity(cs_intent)
+        }
+
+        vbdotnetButton.setOnClickListener {
+            val vbdotnet_intent = Intent(this, Vb_DotNet::class.java)
+            startActivity(vbdotnet_intent)
+        }
     }
 }

@@ -6,13 +6,13 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 
-class CppLang : AppCompatActivity() {
+class Vb_DotNet : AppCompatActivity() {
 
     lateinit var mAdView: AdView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cpp_lang)
+        setContentView(R.layout.activity_vb_dot_net)
 
         MobileAds.initialize(this, "ca-app-pub-8821863654562801~7746394788")
         mAdView = findViewById(R.id.adView)

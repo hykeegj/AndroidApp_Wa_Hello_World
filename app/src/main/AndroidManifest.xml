@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PythonLang"></activity>
+        <activity android:name=".Vb_DotNet"></activity>
+        <activity android:name=".CsLang" />
+        <activity android:name=".PythonLang" />
         <activity android:name=".JavaLang" />
         <activity android:name=".CLang" />
         <activity android:name=".CppLang" />
