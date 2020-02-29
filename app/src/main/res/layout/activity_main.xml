@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="?android:attr/buttonBarStyle"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:adjustViewBounds="true"
-        android:maxHeight="75dp"
-        android:src="@drawable/wa"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:contentDescription="@string/wa"-->
+<!--        android:maxHeight="75dp"-->
+<!--        android:src="@drawable/wa"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tableLayout"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/textView"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <TextView
         android:id="@+id/textView"
@@ -26,11 +28,11 @@
         android:text="Hello World!"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
@@ -51,22 +53,25 @@
                 android:id="@+id/cButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:background="#FFFFFF"
-                android:text="C" />
+                android:text="@string/cTitle" />
 
             <Button
                 android:id="@+id/cppButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:background="#FFFFFF"
-                android:text="C++" />
+                android:text="@string/cppTitle" />
 
             <Button
                 android:id="@+id/csButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:background="#FFFFFF"
-                android:text="C#" />
+                android:text="@string/csTitle" />
         </TableRow>
 
         <TableRow
@@ -77,35 +82,68 @@
                 android:id="@+id/javaButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:background="#FFFFFF"
-                android:text="Java" />
+                android:text="@string/javaTitle" />
 
             <Button
                 android:id="@+id/pythonButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:background="#FFFFFF"
-                android:text="Python" />
+                android:text="@string/pythonTitle" />
 
             <Button
                 android:id="@+id/vbdotnetButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:background="#FFFFFF"
-                android:text="VB .NET" />
+                android:text="@string/vbdotnetTitle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/goLangButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
+                android:background="#FFFFFF"
+                android:text="@string/goTitle"/>
+
+            <Button
+                android:id="@+id/phpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
+                android:background="#FFFFFF"
+                android:text="@string/phpTitle"/>
+
+            <Button
+                android:id="@+id/swiftButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
+                android:background="#FFFFFF"
+                android:text="@string/swiftTitle"/>
         </TableRow>
     </TableLayout>
 
     <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        app:adSize="SMART_BANNER"
-        app:adUnitId="ca-app-pub-8821863654562801/7908733237"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
-
+        app:layout_constraintStart_toStartOf="parent">
+    </com.google.android.gms.ads.AdView>
 </androidx.constraintlayout.widget.ConstraintLayout>

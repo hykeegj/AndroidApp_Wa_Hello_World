@@ -2,14 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hykeegj.wa_hello_world">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_ver2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_ver2_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vb_DotNet"></activity>
+        <activity android:name=".SwiftLang" />
+        <activity android:name=".PhpLang" />
+        <activity android:name=".GoLang" />
+        <activity android:name=".Vb_DotNet" />
         <activity android:name=".CsLang" />
         <activity android:name=".PythonLang" />
         <activity android:name=".JavaLang" />
@@ -18,7 +23,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8821863654562801~7746394788" />
+            android:value="@string/admob_app_id" />
 
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -1,18 +1,12 @@
 package com.hykeegj.wa_hello_world
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.webkit.ConsoleMessage
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlin.math.log
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        MobileAds.initialize(this, "ca-app-pub-8821863654562801~7746394788")
+        MobileAds.initialize(this) {}
         mAdView = findViewById(R.id.adView)
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
@@ -55,6 +49,21 @@ class MainActivity : AppCompatActivity() {
         vbdotnetButton.setOnClickListener {
             val vbdotnet_intent = Intent(this, Vb_DotNet::class.java)
             startActivity(vbdotnet_intent)
+        }
+
+        goLangButton.setOnClickListener {
+            val goLang_intent = Intent(this, GoLang::class.java)
+            startActivity(goLang_intent)
+        }
+
+        phpButton.setOnClickListener {
+            val phpLang_intent = Intent(this, PhpLang::class.java)
+            startActivity(phpLang_intent)
+        }
+
+        swiftButton.setOnClickListener {
+            val swiftLang_intent = Intent(this, SwiftLang::class.java)
+            startActivity(swiftLang_intent)
         }
     }
 }

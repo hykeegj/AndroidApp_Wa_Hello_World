@@ -1,15 +1,25 @@
 <resources>
-    <string name="app_name">와헬로월드</string>
+    <string name="app_name"><![CDATA[헬로 월드]]></string>
+    <string name="admob_app_id">ca-app-pub-8821863654562801~7746394788</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8821863654562801/7908733237</string>
+    <string name="banner_ad_unit_for_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="wa"><![CDATA[Wa!]]></string>
     <string name="cTitle"><![CDATA[C]]></string>
     <string name="cppTitle"><![CDATA[C++]]></string>
     <string name="csTitle"><![CDATA[C#]]></string>
     <string name="javaTitle"><![CDATA[Java]]></string>
     <string name="pythonTitle"><![CDATA[Python]]></string>
     <string name="vbdotnetTitle"><![CDATA[VB .NET]]></string>
-    <string name="cCode"><![CDATA[\n\n\t1\t\t#include <stdio.h>\n\t2\n\t3\t\tint main(void)\n\t4\t\t{\n\t5\t\t\t\tprintf(\"Hello World!\\n\");\n\t6\n\t7\t\t\t\treturn 0;\n\t8\t\t}]]></string>
-    <string name="cppCode"><![CDATA[\n\n\t1\t\t#include <iostream>\n\t2\n\t3\t\tint main()\n\t4\t\t{\n\t5\t\t\t\tstd::cout << \"Hello World!\\n\";\n\t6\t\t}]]></string>
-    <string name="javaCode"><![CDATA[\n\n\t1\t\tpackage hello;\n\t2\n\t3\t\tpublic class HelloWorld {\n\t4\t\t\t\tpublic static void main(String[] args) {\n\t5\t\t\t\t\t\tSystem.out.println(\"Hello World!\");\n\t6\t\t\t\t}\n\t7\t\t}]]></string>
-    <string name="pythonCode"><![CDATA[\n\n\t1\t\tprint(\"Hello World\")]]></string>
-    <string name="csCode"><![CDATA[\n\n\t\t\t1\t\tusing System;\n\t\t\t2\n\t\t\t3\n\t\t\t4\t\tnamespace HelloWorld\n\t\t\t5\t\t{\n\t\t\t6\t\t\t\tclass Hello\n\t\t\t7\t\t\t\t{\n\t\t\t8\t\t\t\t\t\tstatic void Main()\n\t\t\t9\t\t\t\t\t\t{\n\t\t10\t\t\t\t\t\t\t\tConsole.WriteLine(\"Hello World!\");\n\t\t11\t\t\t\t\t\t}\n\t\t12\t\t\t\t}\n\t\t13\t\t}]]></string>
-    <string name="vbdotnetCode"><![CDATA[\n\n\t\t1\t\tModule Hello\n\t\t2\n\t\t3\t\t\t\tSub Main()\n\t\t4\t\t\t\t\t\tConsole.WriteLine(\"Hello World!\")\n\t\t5\t\t\t\tEnd Sub\n\t\t6\n\t\t7\t\tEnd Module]]></string>
+    <string name="goTitle"><![CDATA[Go]]></string>
+    <string name="phpTitle"><![CDATA[PHP]]></string>
+    <string name="swiftTitle"><![CDATA[Swift]]></string>
+    <string name="cCode"><![CDATA[\n\n\t1\t\t#include <stdio.h>\n\t2\n\t3\t\tint main(void)\n\t4\t\t{\n\t5\t\t\t\tprintf(\"Hello, World!\\n\");\n\t6\n\t7\t\t\t\treturn 0;\n\t8\t\t}]]></string>
+    <string name="cppCode"><![CDATA[\n\n\t1\t\t#include <iostream>\n\t2\n\t3\t\tint main()\n\t4\t\t{\n\t5\t\t\t\tstd::cout << \"Hello, World!\\n\";\n\t6\t\t}]]></string>
+    <string name="javaCode"><![CDATA[\n\n\t1\t\tpackage hello;\n\t2\n\t3\t\tpublic class HelloWorld {\n\t4\t\t\t\tpublic static void main(String[] args) {\n\t5\t\t\t\t\t\tSystem.out.println(\"Hello, World!\");\n\t6\t\t\t\t}\n\t7\t\t}]]></string>
+    <string name="pythonCode"><![CDATA[\n\n\t1\t\tprint(\"Hello, World\")]]></string>
+    <string name="csCode"><![CDATA[\n\n\t\t\t1\t\tusing System;\n\t\t\t2\n\t\t\t3\n\t\t\t4\t\tnamespace HelloWorld\n\t\t\t5\t\t{\n\t\t\t6\t\t\t\tclass Hello\n\t\t\t7\t\t\t\t{\n\t\t\t8\t\t\t\t\t\tstatic void Main(string[] args)\n\t\t\t9\t\t\t\t\t\t{\n\t\t10\t\t\t\t\t\t\t\tConsole.WriteLine(\"Hello, World!\");\n\t\t11\t\t\t\t\t\t}\n\t\t12\t\t\t\t}\n\t\t13\t\t}]]></string>
+    <string name="vbdotnetCode"><![CDATA[\n\n\t\t1\t\tModule Hello\n\t\t2\n\t\t3\t\t\t\tSub Main()\n\t\t4\t\t\t\t\t\tConsole.WriteLine(\"Hello, World!\")\n\t\t5\t\t\t\tEnd Sub\n\t\t6\n\t\t7\t\tEnd Module]]></string>
+    <string name="goLangCode"><![CDATA[\n\n\t\t1\t\tpackage main\n\t\t2\n\t\t3\t\timport \"fmt\"\n\t\t4\n\t\t5\t\tfunc main() {\n\t\t6\t\t\t\t\t\tfmt.Println(\"Hello, World!\")\n\t\t7\t\t}]]></string>
+    <string name="phpCode"><![CDATA[\n\n\t\t1\t\t<?php\n\t\t2\t\t\t\techo \"Hello, World!\";\n\t\t3\t\t?>]]></string>
+    <string name="swiftCode"><![CDATA[\n\n\t\t1\t\tprint(\"Hello, World!\")]]></string>
 </resources>
